@@ -1248,8 +1248,8 @@ select:focus, input[type="number"]:focus{
 .timerCard{
   border-radius: 18px;
   border:1px solid rgba(255,255,255,.10);
-  background: rgba(255,255,255,.92);
-  color:#111;
+  background: rgba(255,255,255,.06);
+  color:inherit;
   padding: 12px;
   display:flex;
   flex-direction:column;
@@ -1282,10 +1282,18 @@ select:focus, input[type="number"]:focus{
   box-shadow: 0 10px 24px rgba(0,0,0,.16);
 }
 .timerCard .tbtn svg{
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   display:block;
   fill: currentColor;
+}
+.timerCard .tbtn.reset{
+  background: rgba(139,92,255,.30);
+  box-shadow: 0 6px 16px rgba(139,92,255,.18);
+}
+.timerCard .tbtn.reset svg{
+  width: 22px;
+  height: 22px;
 }
 .timerCard .tbtn:active{
   transform: translateY(1px) scale(.98);
