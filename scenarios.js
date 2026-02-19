@@ -133,7 +133,7 @@ const SCENARIO_CONFIGS = {
       { id: "identity_reveal", fa: "افشای هویت", en: "Identity reveal" },
       { id: "beautiful_mind", fa: "ذهن زیبا", en: "Beautiful Mind" },
       { id: "handcuffs", fa: "دستبند", en: "Handcuffs" },
-      { id: "face_change", fa: "تغییر چهره", en: "Face change" },
+      { id: "face_change", fa: "تغییر چهره", en: "Face Off" },
       { id: "duel", fa: "دوئل", en: "Duel" },
     ],
     roleOverrides: {
